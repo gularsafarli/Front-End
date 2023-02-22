@@ -1,0 +1,31 @@
+.card{
+  color:#878e96;
+  /* padding:20px; */
+  text-align:center;
+  width: 300px;
+  border-style: solid;
+  border-radius: 6px;
+  border-color:#c8c8c8;
+  margin: 200px 600px;
+}
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+h4{
+    color:black;
+    margin:10px;
+}
+.container{
+  padding:2px 16px;
+}
+.text{
+    margin:10px;
+}
+
+a{
+    color:#0413b5;
+    text-decoration: none;
+    margin:10px;
+ 
+}

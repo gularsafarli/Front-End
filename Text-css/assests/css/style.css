@@ -1,0 +1,118 @@
+h1{
+  color:#109E97;
+  font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 49px;
+line-height: 61px;
+text-align: center;
+padding-bottom: 10px;
+}
+.low{
+    color: #008000;
+    font-size: 25px;
+ 
+}
+.higher{
+    color: #FF0000;
+    font-size: 14px;
+    padding-left:100px;
+}
+hr{
+    border: 1px solid #000000;
+border-radius: 0px;
+}
+h3{
+    padding-left: 4rem;
+    margin:20px;
+}
+
+p{
+color:#008000;
+line-height: 29px;
+}
+img{
+    padding-left: 7px;
+}
+#main{
+    background-color: #000000;
+    color:white;
+ padding: 60px 50px;
+ margin:5px;
+}
+h2{
+    color:white;
+}
+table{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+tbody tr td{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+thead tr td {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+}
+
+span{
+    padding-left:1200px;
+    margin-bottom:20px;
+}
+h4{
+    color:black;
+    margin-top:20px;
+    padding-left: 10px;
+}
+/* #comment{
+    padding-left: 100px;
+} */
+.title{
+    padding-left: 120px;
+}
+#maincomment{
+    padding:60px 10px;
+    margin-left: 50px;
+}
+button{
+    background-color:#109E97 ;
+    padding:18px 44px;
+    margin-left: 90px;
+    margin-bottom: 25px;;
+}
+
+.lists{
+    margin-bottom:24px;
+}
+#name{
+padding: 3rem; 
+}
+
+.time{
+
+  margin-right: 40px;
+
+}
+.color{
+    color: #c8c8c8;
+    margin:20px;
+    padding-left:20px;
+}
+a{
+    color:#0000EE;
+  
+  padding: 30px 30px;
+
+}
+form{
+ margin:30px;
+}
+footer{
+    background-color: #109E97;
+    text-align: center;
+    padding:20px 60px ;
+    border-radius: 0px;
+    margin-top:10px;
+}
