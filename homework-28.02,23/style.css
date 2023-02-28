@@ -1,0 +1,120 @@
+/* Task 1 started */
+#outer{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#outer::after{
+content:'';
+width: 250px;
+height: 250px;
+background-color:  #ffa500;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#middle{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+}
+#middle::after{
+content:'';
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: #008000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#inner{
+    width: 100px;
+    height: 100px;
+    background-color:#0000ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+}
+#inner::after{
+    content:'';
+    width: 50px;
+    height: 50px;
+    background-color: #800080;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Task1 end */
+#wrapper{
+    background-color: black;
+    width:50%;
+    height:70vh;
+}
+#algo-expert{
+    width: 75%;
+    height: 50px;
+background-color:#626ee3;
+color:white;
+font-size:25px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+margin-left: 80px;
+}
+#systems-expert{
+    width:50%;
+    height: 50px;
+    background-color: #890023 ;
+    color:white;
+    font-size:25px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:10px;
+}
+#ml-expert{
+    height: 75px;
+    width: 30%;
+    background-color: #f37f1b;
+    color:white;
+    font-size:25px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#frontend-expert{
+    width: 40%;
+    height: 50px;
+    color:white;
+    font-size:25px;
+    background-color:#11967e;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#programming-expert{
+    width:55%;
+    height:75px;
+    color:white;
+    font-size:40px;
+    background-color:#f21b3f;
+display: flex;
+justify-content: center;
+align-items: center;
+}
